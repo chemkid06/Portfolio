@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jess Davis GWBC Portfolio</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+</html>
+
+<body>
+    <header class="navigation"></header>
+    <!--NAV-->
+        <nav id="nav-bar">
+            <h1>Jess.Ly.Davis</h1>
+        <div id="navigation"> 
+            <ul id="nav-list">
+                <li><a href="#!">Placeholder</a></li>
+                <li><a href="#!">Placeholder</a></li>
+                <li><a href="#!">Placeholder</a></li>
+                <li><a href="#!">Placeholder</a></li>
+            </ul>
+        </div>
+        </nav>  
+
+    <!--Hero Image-->    
+    <section id="hero-grid">
+        <div id="homepage-header" class="hero-grid-area">
+            <div id="headline">
+                <h2 id="page-quote"> Insert Witty Self Quote</h2>
+                <h3 id="quotee"> - Jessica Davis</h3>
+            </div>
+        </div> 
+    </section>
+
+    <!--Portfolio Sweat-->
+    <div class="subheading">
+        <h3>Portfolio Sweat</h3>
+    </div> 
+    <section id="portfolio-grid">
+        <div id="case-study-one" class="portfolio-grid-area">
+            <div class="heading">Recycle Easy</div>
+        </div>
+        <div id="case-study-one-text" class="portfolio-grid-area">
+            <div class="paragraph">Case study summary</div>
+        </div>
+        <div id="case-study-two" class="porfolio-grid-area">
+            <div class="heading">GWCC RWD</div>
+        </div>
+        <div id="case-study-two-text" class="portfolio-grid-area">
+            <div class="paragraph">Case study summary</div>
+        </div>
+        <div id="case-study-three" class="porfolio-grid-area">
+            <div class="heading">Travel Curate</div>
+        </div>
+        <div id="case-study-three-text" class="portfolio-grid-area">
+            <div class="paragraph">Case study summary</div>
+        </div>
+
+
+</body>
