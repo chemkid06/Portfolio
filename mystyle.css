@@ -1,60 +1,88 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+}
+
+.body-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
 }
 
 .logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-    }
+    width: 100px;
+    height: 100px;
 
-nav{
-    width: 73%;
-    padding: 1%;
-    }
-#nav-list{
-display: inline-block;
+}
+
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;  
+}
+
+li{
+    float: left;
+}
+li a{
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 16px;
+   text-transform: uppercase;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.quote{
+
+
+}
+
+.aboutme{
+    
+}
+
+.profilepic{
+
+
+}
+
+.skills{
+
+}
+
+.resume{
+
+}
+
+#button{
+
 }
 
 
-ul{
-    width: 50%;
-    margin-left: auto;
-    list-style: none;
+.navigationfooter{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;  
 }
 
-.hero-img{
+img{
     height: 600px;
-    padding: 25px;
-}
-
-.content{
-    display: grid;
-    grid-template-columns: 1fr;
     width: 500px;
-    margin: 0 auto;
 }
-
-.profile{
-    width: 200px;
-    height: 200px;
-}
-
-footer{
-    display: block;
-    background-color: #373738;
-}
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    padding: auto;
-}
-
-ul li{
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-}
-
